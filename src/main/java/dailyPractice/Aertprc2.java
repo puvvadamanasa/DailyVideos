@@ -12,7 +12,7 @@ public class Aertprc2 {
 		driver.get("https://mail.rediff.com/cgi-bin/login.cgi");
 		driver.findElement(By.id("login1")).sendKeys("puvvadamanasa");
 		driver.findElement(By.name("proceed")).click();
-		Thread.sleep(3000);
+		Thread.sleep(4000);
 		Alert alert = driver.switchTo().alert();
 		String text = alert.getText();
 		System.out.println(text);
