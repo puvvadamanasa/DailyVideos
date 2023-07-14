@@ -19,9 +19,6 @@ public class BrowserUtils {
 		case "edge":
 			driver = new EdgeDriver();
 			break;
-		case "safari":
-			driver = new SafariDriver();
-			break;
 		default:
 			System.out.println("Please pass right browser"+browserName);
 		}
