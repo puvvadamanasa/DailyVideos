@@ -3,7 +3,7 @@ package dailyPractice;
 public class AmazonTest {
 
 	public static void main(String[] args) {
-		String browserName = "chrome";
+		String browserName = "firefox";
 		BrowserUtils b = new BrowserUtils();
 		b.initDriver(browserName);
 		b.launchURL("https://naveenautomationlabs.com/opencart/index.php?route=common/home");
